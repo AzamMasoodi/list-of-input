@@ -2,9 +2,8 @@
 a=input("insert your number by space")
 d=a.split()
 print(d)
-g=0
+g=list[]
 for i in range(len(d)):
-    d[i]=int(d[i])
-    g=d[i]+g
-print(d)    
+    g=append(d(i))
+     
 print(g)
